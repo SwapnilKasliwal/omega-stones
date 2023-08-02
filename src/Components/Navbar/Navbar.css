@@ -58,3 +58,29 @@
     max-width: 1000px;
     margin: auto;
 }
+
+@media (max-width: 790px){
+    #navbar ul{
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        width: 100%;
+        background-color: #212121;
+        margin: 0px;
+        flex-direction: column;
+        padding: 0;
+        padding-top: 5px;
+        padding-bottom: 20px;
+        row-gap: 15px;
+    }
+    #navbar ul.active{
+        left: 0;
+    }
+    #navbar ul li{
+        font-weight: bold;
+    }
+    #navbar ul li a:hover, #navbar ul li a:active{
+        background: none;
+        color: blue;
+    }
+}
