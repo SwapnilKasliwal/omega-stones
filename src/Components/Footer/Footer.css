@@ -1,0 +1,15 @@
+#footer-bar{
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    height: 60px;
+}
+.footer-container{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+}
