@@ -1,0 +1,30 @@
+.product{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #343333;
+}
+.product-image{
+    width: 240px;
+    height: 160px;
+}
+.product{
+    width: 240px;
+    height: 160px;
+    transition: 1s;
+}
+.product:hover{
+    transform: scale(1.1);
+    z-index: 100;
+}
+.product-name{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    margin: 0px;
+    padding: 5px;
+    background-color: black;
+}
