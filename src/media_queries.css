@@ -1,0 +1,97 @@
+@media (max-width: 1130px){
+    #director-data{
+        vertical-align: top;
+        text-align: center;
+        width: 400px;
+    }
+}
+@media (max-width: 1008px){
+    #director-data{
+        text-align: start;
+        width: 300px;
+    }
+    #director-image{
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 880px) {
+    #director-message{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #director-image{
+        margin: 0 0 20px 0
+    }
+    #director-data{
+        text-align: center;
+        width: 300px;
+    }
+    
+}
+@media (max-width: 790px) {
+
+    #navbar ul{
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        width: 100%;
+        background-color: #212121;
+        margin: 0px;
+        flex-direction: column;
+        padding: 0;
+        padding-top: 5px;
+        padding-bottom: 20px;
+        row-gap: 15px;
+    }
+    #navbar ul.active{
+        left: 0;
+    }
+    #navbar ul li{
+        font-weight: bold;
+    }
+    #navbar ul li a:hover, #navbar ul li a:active{
+        background: none;
+        color: blue;
+    }
+    #menuButton{
+        display: block;   
+    }
+    .footer-data{
+        float: none;
+        display: inline-block;
+    }
+}
+@media (max-width: 665px){
+    #director-data{
+        text-align: center;
+        width: 300px;
+    }
+}
+@media (max-width: 500px){
+
+    .carousel{
+        height: 50vh;
+    }
+    .product-carousel, .gallery-carousel{
+        margin: 0px;
+        border-radius: 0;
+        box-shadow: inset 4px 4px #fefdc0;
+    }
+    #products-heading, #gallery-heading{
+        font-size: 20px;
+    }
+    #director-message-heading{
+        font-size: 20px;
+    }
+    #director-message{
+        margin: 0px;
+        border-radius: 0;
+         box-shadow: inset 4px 4px #fefdc0;
+    }
+    .footer-data{
+        width: 300px;
+    }
+}
