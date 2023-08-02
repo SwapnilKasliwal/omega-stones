@@ -584,7 +584,7 @@ export default function GranitePage() {
   return (
     <div className='granitePage'>
         <div className='container granite'>
-        <img className='granite-collage' src={GraniteCollage}/>
+        <img className='granite-collage' src={GraniteCollage} alt="granite-image"/>
         <p id='granite-desc'>
         Granite is a tough and beautiful stone. It is available in variety of colours, textures and used for the Budding Construction. It can be used for both interior and exterior. Kitchen tops, Counter tops, flooring, elevations, steps, Name any aspect of your building granite fits the role perfectly.
         </p>
