@@ -1,0 +1,88 @@
+.contact-page-container{
+    max-width: 1000px;
+    max-height: 50vh;
+    margin: auto;
+}
+.contact-container{
+    max-width: 1000px;
+    margin: auto;
+    height: 300px;
+    margin-block: 30px;
+    background-color: #181818;
+    display: flex;
+    flex-direction: row;
+}
+.info-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.info-container p{
+    text-align: center;
+}
+ul{
+    padding: 0px;
+    list-style: none;
+}
+.icon-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.logo-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.form-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+input{
+    width: 344px;
+    border-radius: 10px;
+}
+.outer{
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-labels{
+    display: none;
+    position: absolute;
+    bottom: 35px;
+    background-color: black;
+    padding: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    pointer-events: none;
+}
+.outer:hover{
+    .logo-labels{
+        display: inline-block;
+    }
+}
+input{
+    display: block;
+    background-color: grey;
+    max-width: 300px;
+    margin-block: 20px;
+    height: 30px;
+}
+input::placeholder{
+    color: black;
+}
+#message{
+    height: 70px;
+}

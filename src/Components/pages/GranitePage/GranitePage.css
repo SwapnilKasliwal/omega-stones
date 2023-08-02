@@ -1,0 +1,66 @@
+.granitePage{
+    color: white;
+    margin-top: 80px;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.granite-collage{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.granite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 600;
+}
+#granite-desc{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    text-align: center;
+}
+.product-grid{
+    max-width: 1000px;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+input{
+    display: none;
+}
+.granite-options{
+    background-color: #343333;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #2b2b2b;
+}
+h3{
+    height: 100%;
+    background-color: #2b2b2b;
+    line-height: 60px;
+    padding: 0 50px
+}
+label{
+    display: inline-block;
+    height: 100%;
+    margin: 0 20px;
+    line-height: 60px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color .5s
+}
+label:hover{
+    color: white;
+}
