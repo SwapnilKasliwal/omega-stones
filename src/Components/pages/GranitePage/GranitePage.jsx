@@ -589,14 +589,14 @@ export default function GranitePage() {
         Granite is a tough and beautiful stone. It is available in variety of colours, textures and used for the Budding Construction. It can be used for both interior and exterior. Kitchen tops, Counter tops, flooring, elevations, steps, Name any aspect of your building granite fits the role perfectly.
         </p>
         <div className='granite-options'>
-        <input type='radio' name='Products' id='check1' checked/>
-        <input type='radio' name='Products' id='check2'/>
-        <input type='radio' name='Products' id='check3'/>
-        <input type='radio' name='Products' id='check4'/>
-        <input type='radio' name='Products' id='check5'/>
-        <input type='radio' name='Products' id='check6'/>
-        <input type='radio' name='Products' id='check7'/>
-        <input type='radio' name='Products' id='check8'/>
+        <input type='radio' className='granite-input' name='Products' id='check1' checked/>
+        <input type='radio' className='granite-input' name='Products' id='check2'/>
+        <input type='radio' className='granite-input' name='Products' id='check3'/>
+        <input type='radio' className='granite-input' name='Products' id='check4'/>
+        <input type='radio' className='granite-input' name='Products' id='check5'/>
+        <input type='radio' className='granite-input' name='Products' id='check6'/>
+        <input type='radio' className='granite-input' name='Products' id='check7'/>
+        <input type='radio' className='granite-input' name='Products' id='check8'/>
         <h3>Granite options</h3>
         <label for='check1'>All Colours</label>
         <label for='check2'>Black</label>

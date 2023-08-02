@@ -31,9 +31,9 @@ export default function ContactPage() {
     <div className='form-container'>
     <h2>EMAIL US</h2>
     <form action="mailto:omegastones@gmail.com">
-  <input type='text' name='name' placeholder='Your Name (required)' required={true}></input>
-  <input type='text' name='email' placeholder='Your Email (required)'></input>
-  <input type='text' name='message' id='message' placeholder='Your Message (required)'></input>
+  <input className="contact-input" type='text' name='name' placeholder='Your Name (required)' required={true}></input>
+  <input className="contact-input" type='text' name='email' placeholder='Your Email (required)'></input>
+  <input className="contact-input" type='text' name='message' id='message' placeholder='Your Message (required)'></input>
   
 </form>
     </div>
